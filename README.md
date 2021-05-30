@@ -1,4 +1,8 @@
-Create a NGINX docker container :
+Create a NGINX docker container and build :
+
+docker build -t NGINX dockerfile-location
+
+if you like to run image - docker run -it -d -p 8080:80 NGINX
 
 
 Minikube cluster Installation in local Mac machine :
