@@ -1,8 +1,10 @@
 Create a NGINX docker container and build :
 
 docker build -t honeysundar/nginix dockerfile-location
-Push it to docker hub - using docker push honeysundar/nginx
-if you like to run image - docker run -it -d -p 8080:80 nginx
+Push it to docker hub - using docker push docker hub using (docker push honeysundar/nginix) 
+if there is login problem - use docker login cmd then docker push honeysundar/nginix
+
+if you like to run image - docker run -it -d -p 8080:80 honeysundar/nginx
 
 Minikube cluster Installation in local Mac machine :
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-amd64
